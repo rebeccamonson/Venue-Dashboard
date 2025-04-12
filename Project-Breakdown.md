@@ -1,6 +1,6 @@
 ## Concert Venue Power BI Dashboard Creation 🎶
 ---
-The concert venue provided two excel files, one that compiled attendance and attendance cost related informationand another that contained the marketing data for the artists. The attendance 
+The concert venue provided two excel files, one that compiled attendance and attendance cost related information and another that contained the marketing data for the artists. The attendance 
 data included information about the number of tickets purchased and the actual number of tickets that were redeemed on the conert day for entry into the venue. The marketing data was split 
 between the marketing budget and money actually spent. 
 
@@ -8,10 +8,10 @@ between the marketing budget and money actually spent.
 ---
 The raw data files contained information about every genre of artist and every concert held at the venue. To begin, the data was filtered to only include the two genres of interest, Rock and 
 Coutnry. Addtional data prep included: 
-* The data originally contained both a 'Rock' variable and a 'Classic Rock' varibale, the data was tranformed so that the 'Classic Rock' genre was also just 'Rock'
+* The data originally contained both a 'Rock' variable and a 'Classic Rock' variable, the data was tranformed so that the 'Classic Rock' genre was also just 'Rock'
 * Several of the bands had openers listed in their names as well, the names were corrected to only show the main band
 * It was noted that marketing data was not provided for all the Rock or Country artists
-* To protect the company's data privacy, the band names for Rock artists were altered to a "RockA1" and Country artists were altered to "CountryA1"
+* To protect the company's data privacy, the band names for Rock artists were altered to  "RockA1" and Country artists were altered to "CountryA1"
 
 ## Data Stats 📊
 ---
@@ -58,7 +58,7 @@ This visual can be filtered by genre but can also dynamically show the tickets p
 
 **Marketing Data**
 
-Marketing data was not provided for every artist. But for several of them, the marketing budget and actual money spent were provided and put into a var chart visual. This visual could be filtered
+Marketing data was not provided for every artist. But for several of them, the marketing budget and actual money spent were provided and put into a bar chart visual. This visual could be filtered
 by genre and artist as needed. 
 
 
@@ -80,11 +80,11 @@ Marketing data filtered for Rock artists.
 ---
 
 The final recommendation from this project is that the concerrt venue should add more Rock artists to their upcoming concert season. Overall, the venue already showcases more Rock artists 
-than country so that is a factor to consider in our analysis. However, the Rock concerts have high attendance and meet the goals of the venue, and by choosing more Rock artists than Country 
+than country so that is a factor to consider in our analysis. However, the Rock concerts have high attendance and meet the goals of the venue, and choosing more Rock artists than Country 
 artists has the potential to bring in more revenue and increased attendance. 
 
 In terms of attendance, the Rock concerts made up 60% of total attendance. In terms of individual concert attendance, Rock concerts saw a higher average attendance per concert in terms of 
-tickets redeemed at entry. However, it was noted that there was indeed a discrpency between number of tickets purchased and number of tickets redeemed at the venue doors for entry. About, 12%
+tickets redeemed at entry. However, it was noted that there was indeed a discrepancy between number of tickets purchased and number of tickets redeemed at the venue doors for entry. About, 12%
 and 11% for Rock and Country respectively. 
 
 For marketing expenses, there was some variability in the amount of money spent on each concert, but overall, Rock concerts spent on average more on marketing than Country artists. Two Rock 
